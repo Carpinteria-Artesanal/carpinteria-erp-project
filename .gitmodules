@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/Carpinteria-Artesanal/carpinteria-erp-client.git
+[submodule "api"]
+	path = api
+	url = https://github.com/Carpinteria-Artesanal/carpinteria-erp-api.git
