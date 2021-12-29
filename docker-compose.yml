@@ -36,6 +36,9 @@ services:
 
   client:
     image: carpinteria-client:1.0
+    env_file: .env
+    environment:
+      REACT_APP_API_HOST: ${REACT_APP_API_HOST}
     build:
       context: ./client
     ports:
